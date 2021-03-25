@@ -18,6 +18,9 @@
 		4E483547260C7F65003BFD3E /* azkar.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E483546260C7F65003BFD3E /* azkar.json */; };
 		4E48354A260C7F6F003BFD3E /* AzkarModek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E483549260C7F6F003BFD3E /* AzkarModek.swift */; };
 		4E48354D260C7FB8003BFD3E /* AzkarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E48354C260C7FB8003BFD3E /* AzkarViewModel.swift */; };
+		4EECB8A9260CB359004A5028 /* DetailAZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB8A8260CB359004A5028 /* DetailAZ.swift */; };
+		4EECB8AE260CB501004A5028 /* DetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB8AD260CB501004A5028 /* DetailRowView.swift */; };
+		4EECB8B2260CBB05004A5028 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB8B1260CBB05004A5028 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		4E483546260C7F65003BFD3E /* azkar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = azkar.json; sourceTree = "<group>"; };
 		4E483549260C7F6F003BFD3E /* AzkarModek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarModek.swift; sourceTree = "<group>"; };
 		4E48354C260C7FB8003BFD3E /* AzkarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarViewModel.swift; sourceTree = "<group>"; };
+		4EECB8A8260CB359004A5028 /* DetailAZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAZ.swift; sourceTree = "<group>"; };
+		4EECB8AD260CB501004A5028 /* DetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowView.swift; sourceTree = "<group>"; };
+		4EECB8B1260CBB05004A5028 /* CustomShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				4E1134DD260CA76300601D01 /* NoSearchResult.swift */,
+				4EECB8B1260CBB05004A5028 /* CustomShape.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -99,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				4E48352F260C7F38003BFD3E /* ContentView.swift */,
-				4E483542260C7F5E003BFD3E /* Home.swift */,
+				4EECB8A6260CB344004A5028 /* azkar */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -108,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				4E1134DC260CA75A00601D01 /* custom */,
-				4E1134D6260CA52E00601D01 /* AzarRowView.swift */,
+				4EECB8A7260CB34D004A5028 /* azkar */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -136,6 +143,24 @@
 				4E1134CE260C9F3200601D01 /* Data.swift */,
 			);
 			path = helpers;
+			sourceTree = "<group>";
+		};
+		4EECB8A6260CB344004A5028 /* azkar */ = {
+			isa = PBXGroup;
+			children = (
+				4E483542260C7F5E003BFD3E /* Home.swift */,
+				4EECB8A8260CB359004A5028 /* DetailAZ.swift */,
+			);
+			path = azkar;
+			sourceTree = "<group>";
+		};
+		4EECB8A7260CB34D004A5028 /* azkar */ = {
+			isa = PBXGroup;
+			children = (
+				4E1134D6260CA52E00601D01 /* AzarRowView.swift */,
+				4EECB8AD260CB501004A5028 /* DetailRowView.swift */,
+			);
+			path = azkar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +241,9 @@
 				4E483543260C7F5E003BFD3E /* Home.swift in Sources */,
 				4E48354D260C7FB8003BFD3E /* AzkarViewModel.swift in Sources */,
 				4E48352E260C7F38003BFD3E /* AzakrApp.swift in Sources */,
+				4EECB8AE260CB501004A5028 /* DetailRowView.swift in Sources */,
+				4EECB8A9260CB359004A5028 /* DetailAZ.swift in Sources */,
+				4EECB8B2260CBB05004A5028 /* CustomShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

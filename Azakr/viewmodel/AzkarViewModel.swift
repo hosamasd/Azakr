@@ -96,6 +96,10 @@ class AzkarViewModel: ObservableObject {
         }
     }
     
+    func getData(ss:String) -> [AzkarModek] {
+        totalAzakar.filter{$0.category==ss }
+    }
+    
     func searchColor(){
         
         // filtering...
