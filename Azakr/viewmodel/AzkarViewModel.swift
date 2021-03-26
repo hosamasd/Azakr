@@ -154,19 +154,74 @@ extension Bundle {
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Failed to locate \(file) in bundle.")
         }
-        
+
         guard let data = try? Data(contentsOf: url) else {
             fatalError("Failed to load \(file) from bundle.")
         }
-        
+
         let decoder = JSONDecoder()
-        
+
         guard let loaded = try? decoder.decode([AzkarModek].self, from: data) else {
             fatalError("Failed to decode \(file) from bundle.")
         }
-        
+
         return loaded
     }
+    
+//    func decodeS(_ file: String) -> [NamesModel] {
+//        guard let url = self.url(forResource: file, withExtension: nil) else {
+//            fatalError("Failed to locate \(file) in bundle.")
+//        }
+//
+//        guard let data = try? Data(contentsOf: url) else {
+//            fatalError("Failed to load \(file) from bundle.")
+//        }
+//
+//        let decoder = JSONDecoder()
+//
+//        guard let loaded = try? decoder.decode(MainModel.self, from: data) else {
+//            fatalError("Failed to decode \(file) from bundle.")
+//        }
+//
+//        return loaded.data
+//    }
+  
+    func decodeS(_ file: String) -> [NamesModel] {
+        guard let url = self.url(forResource: file, withExtension: nil) else {
+            fatalError("Failed to locate \(file) in bundle.")
+        }
+
+        guard let data = try? Data(contentsOf: url) else {
+            fatalError("Failed to load \(file) from bundle.")
+        }
+
+        let decoder = JSONDecoder()
+
+        guard let loaded = try? decoder.decode(MainModel.self, from: data) else {
+            fatalError("Failed to decode \(file) from bundle.")
+        }
+
+        return loaded.data
+    }
+   
+//    func decodeS(_ file: String) -> MainModel {
+//        guard let url = self.url(forResource: file, withExtension: nil) else {
+//            fatalError("Failed to locate \(file) in bundle.")
+//        }
+//
+//        guard let data = try? Data(contentsOf: url) else {
+//            fatalError("Failed to load \(file) from bundle.")
+//        }
+//
+//        let decoder = JSONDecoder()
+//
+//        guard let loaded = try? decoder.decode(MainModel.self, from: data) else {
+//            fatalError("Failed to decode \(file) from bundle.")
+//        }
+//
+//        return loaded
+//    }
+    
 }
 
 extension Array {

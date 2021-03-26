@@ -9,11 +9,11 @@ import SwiftUI
 
 struct DetailAZ: View {
     
-  @State  var azkars:[AzkarModek] = [
+    @State  var azkars:[AzkarModek] = [
         
-//        .init(category: "", count: "2", descriptionField:"مائة حسنة، ومُحيت عنه مائة سيئة، وكانت له حرزاً من الشيطان حتى يمسى." , reference: "البخاري", zekr: "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ"),
+        //        .init(category: "", count: "2", descriptionField:"مائة حسنة، ومُحيت عنه مائة سيئة، وكانت له حرزاً من الشيطان حتى يمسى." , reference: "البخاري", zekr: "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ"),
         
-//        .init(category: "", count: "2", descriptionField: "حُطَّتْ خَطَايَاهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ. لَمْ يَأْتِ أَحَدٌ يَوْمَ الْقِيَامَةِ بِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلَّا أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ.", reference: "مسلم", zekr: "سُبْحـانَ اللهِ وَبِحَمْـدِهِ.")
+        //        .init(category: "", count: "2", descriptionField: "حُطَّتْ خَطَايَاهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ. لَمْ يَأْتِ أَحَدٌ يَوْمَ الْقِيَامَةِ بِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلَّا أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ.", reference: "مسلم", zekr: "سُبْحـانَ اللهِ وَبِحَمْـدِهِ.")
     ]
     var xxx:String = ""
     
@@ -28,7 +28,7 @@ struct DetailAZ: View {
             HStack{
                 
                 Button(action: {
-                                        withAnimation{show.toggle()}
+                    withAnimation{show.toggle()}
                 }, label: {
                     
                     
