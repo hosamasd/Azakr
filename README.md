@@ -1,5 +1,10 @@
 # Azakr
 
+mvvm
+
+JSON FILES FROM HERE
+
+https://github.com/Mohamed-Nagdy/Quran-App-Data/
 
 <div align="center">
 
