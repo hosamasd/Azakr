@@ -1,5 +1,7 @@
 # Azakr Swiftui
 
+https://www.linkedin.com/posts/hosam-mohamed-425a83119_azakr-mainabrgithubabraccount-cv-activity-6782185760515751936-e86f
+
 mvvm
 
 يشمل البرنامج التالي
