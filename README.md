@@ -46,5 +46,5 @@ https://github.com/Mohamed-Nagdy/Quran-App-Data/
 
 
 
-  <a href="https://youtu.be/FD3vFoFhlys"><img src="https://i3.ytimg.com/vi/FD3vFoFhlys/hqdefault.jpg" alt="IMAGE ALT TEXT"></a>
+  <a href="https://youtu.be/iVhy7oYFnA8"><img src="https://i3.ytimg.com/vi/iVhy7oYFnA8/maxresdefault.jpg" alt="IMAGE ALT TEXT"></a>
 
