@@ -1,6 +1,5 @@
 # Azakr Swiftui
 
-https://www.linkedin.com/posts/hosam-mohamed-425a83119_azakrabrswiftui-mainabrgithubabraccount-cv-activity-6782307974481223680-sqGq
 mvvm
 
 يشمل البرنامج التالي
@@ -9,6 +8,8 @@ mvvm
 ٢- امكانيه البحث عن ذكر
 ٣- عرض سور القران الكريم 
 ٤- امكانيه الوقوف عند ايه معين والخروج والرجوع اليها ثانيه
+
+5-تشغيل القران صوت لفضيله الشيخ مشاري العفاسي
 
 JSON FILES FROM HERE
 
